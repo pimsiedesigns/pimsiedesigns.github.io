@@ -1,0 +1,25 @@
+/* Allgemeine Stile */
+body {
+    background-color: #f5f5f5; /* Sanftes Grau für Eleganz */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Container für die Überschrift */
+.container {
+    text-align: center;
+}
+
+/* Stil für den Titel */
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4rem;
+    font-weight: 700;
+    background: linear-gradient(to right, #5a7d5a, #cfa0e9); /* Eukalyptus-Grün & Flieder */
+    -webkit-background-clip: text;
+    color: transparent;
+}
