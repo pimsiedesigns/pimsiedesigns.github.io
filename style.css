@@ -1,6 +1,10 @@
 /* Allgemeine Stile */
 body {
-    background-color: #f5f5f5; /* Sanftes Grau für Eleganz */
+    background-image: url('C:\Users\anabe\Documents\Programmieren\pimsiedesigns\Bilder\wolken.png'); /* Hier den Pfad zum Bild angeben */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f5f5f5; /* Sanftes Grau als Fallback */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +23,7 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 4rem;
     font-weight: 700;
-    background: linear-gradient(to right, #5a7d5a, #cfa0e9); /* Eukalyptus-Grün & Flieder */
+    background: linear-gradient(to right, #5a7d5a, #cfa0e9);
     -webkit-background-clip: text;
     color: transparent;
 }
